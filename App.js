@@ -1,16 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
+//import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import { View } from 'react-native';
-import RegistrationScreen from './screens/RegistrationScreen';
-import LoginScreen from './screens/LoginScreen';
+import RegistrationScreen from './src/api/screens/RegistrationScreen';
+import LoginScreen from './src/api/screens/LoginScreen';
 
 const App = () => {
   return (
     <View>
+      <Text></Text>
 <RegistrationScreen />
 <LoginScreen />
-
     </View>
      );
     };
